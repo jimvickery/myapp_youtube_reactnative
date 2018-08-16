@@ -5,6 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      <Text style={styles.heading}>Welcome to SillySnap</Text>
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
@@ -19,5 +20,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+heading: {
+  fontSize: 25,
   },
 });
